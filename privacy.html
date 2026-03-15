@@ -12,11 +12,24 @@
       line-height: 1.6;
       color: #333;
     }
-    h1, h2 {
+    h1, h2, h3 {
       color: #111;
     }
     hr {
       margin: 30px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .note {
+      background: #f5f5f5;
+      border-left: 4px solid #7C6FCD;
+      padding: 12px 16px;
+      border-radius: 4px;
+      margin: 16px 0;
     }
   </style>
 </head>
@@ -24,48 +37,91 @@
 
 <h1>Privacy Policy</h1>
 <p><strong>Pasian Kammal</strong><br>
-Last Updated: February 22, 2026</p>
+Last Updated: March 14, 2026</p>
+
+<hr>
 
 <h2>1. Introduction</h2>
 <p>Pasian Kammal ("we", "our", or "the App") is a devotional application designed to help users read daily verses, reflect spiritually, and track personal growth.</p>
-<p>The App functions primarily offline and does not require user accounts.</p>
+<p>We respect your privacy. The App does not require user accounts or personal registration.</p>
+
+<hr>
 
 <h2>2. Information We Collect</h2>
 
-<h3>A. Information Stored Locally</h3>
+<h3>A. Information Stored Locally on Your Device</h3>
+<p>The App stores the following data locally on your device:</p>
 <ul>
-<li>Favorites (saved verses)</li>
-<li>Personal notes</li>
-<li>Daily reflections</li>
-<li>Streak progress</li>
-<li>Notification preferences</li>
-<li>Backup settings</li>
+  <li>Favorites (saved verses)</li>
+  <li>Personal notes</li>
+  <li>Daily reflections</li>
+  <li>Streak progress</li>
+  <li>Notification preferences</li>
+  <li>Backup settings</li>
 </ul>
-<p>This data is stored only on your device and is not transmitted to any server.</p>
+<p>Most data is stored locally on your device. Some data is also synced to a secure cloud database to allow your content to persist across app reinstalls.</p>
 
-<h3>B. Notifications</h3>
-<p>Notifications are scheduled locally on your device. No notification data is sent externally.</p>
+<h3>B. Anonymous Device Identifier</h3>
+<div class="note">
+<p>To sync your data securely, the App uses an anonymous device identifier stored in our cloud database (Supabase).</p>
+<p>This identifier:</p>
+<ul>
+  <li>Is randomly generated and not linked to your name, email, or any personal information</li>
+  <li>Is used solely to retrieve your personal app data (favorites, reflections, notes)</li>
+  <li>Is never sold or shared with third parties</li>
+  <li>Is never used for advertising or tracking purposes</li>
+  <li>Can be effectively reset by uninstalling the App</li>
+</ul>
+<p>We use <strong>Supabase</strong> (<a href="https://supabase.com">supabase.com</a>) as our secure cloud database provider. Supabase processes data in accordance with their privacy policy.</p>
+</div>
 
-<h3>C. Backup & Restore</h3>
-<p>Backup files are generated locally. We do not receive or store backup files.</p>
+<h3>C. Notifications</h3>
+<p>If you enable daily notifications, the App schedules them locally on your device. No notification data is sent to any external server. You can disable notifications at any time in the Settings section of the App.</p>
 
-<h2>3. No Accounts</h2>
-<p>The App does not require registration, email addresses, or login credentials.</p>
+<h3>D. Backup &amp; Restore</h3>
+<p>The App allows you to export and import your devotional data. Backup files are generated locally on your device. You choose where to save or share them. We do not receive or store your backup files.</p>
+
+<hr>
+
+<h2>3. No Accounts Required</h2>
+<p>Pasian Kammal:</p>
+<ul>
+  <li>Does not require account registration</li>
+  <li>Does not collect email addresses</li>
+  <li>Does not require login credentials</li>
+</ul>
+<p>All devotional content remains under your control on your device.</p>
+
+<hr>
 
 <h2>4. Third-Party Services</h2>
-<p>The App may use standard platform services such as Expo, iOS, and Android services. The App itself does not transmit personal devotional content externally.</p>
+<p>The App uses the following third-party services:</p>
+<ul>
+  <li><strong>Supabase</strong> — anonymous cloud data sync (device ID only, no personal data)</li>
+  <li><strong>Expo</strong> — app runtime framework</li>
+  <li><strong>Apple iOS / Android</strong> — device notification systems and file system access</li>
+</ul>
+<p>These services operate under their respective platform privacy policies. The App itself does not transmit your reflections, notes, or personal devotional content to any external server beyond what is described above.</p>
+
+<hr>
 
 <h2>5. Data Security</h2>
-<p>Data is stored locally on your device. We recommend exporting backups regularly.</p>
+<p>Your data is stored locally on your device and, where applicable, synced securely via Supabase using your anonymous device identifier. We do not guarantee protection against device loss, theft, or accidental deletion. We recommend regularly exporting backups if your reflections and notes are important to you.</p>
+
+<hr>
 
 <h2>6. Children's Privacy</h2>
-<p>The App does not knowingly collect personal information from children.</p>
+<p>The App does not knowingly collect personal information from children. Because no personal information or accounts are collected, the App is suitable for general audiences.</p>
+
+<hr>
 
 <h2>7. Changes to This Policy</h2>
-<p>We may update this Privacy Policy periodically. Continued use indicates acceptance of changes.</p>
+<p>We may update this Privacy Policy from time to time. If we make significant changes, we will update the "Last Updated" date at the top of this document. Continued use of the App after changes means you accept the updated policy.</p>
+
+<hr>
 
 <h2>8. Contact</h2>
-<p>Email: zomi7tech@gmail.com</p>
+<p>If you have questions about this Privacy Policy, you may contact the developer through the platform where the App is distributed or by email at <a href="mailto:zomi7tech@gmail.com">zomi7tech@gmail.com</a>.</p>
 
 </body>
 </html>
